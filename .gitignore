@@ -1,0 +1,12 @@
+# macOS 
+.DS_Store
+
+# Python
+__pycache__/
+
+# Jupyter Notebook
+*.ipynb
+.ipynb_checkpoints
+
+# JSON
+*.json
