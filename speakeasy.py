@@ -69,7 +69,7 @@ def reply(prompt):
                     responses[response][0] += data[known_prompt][response][0]
                     responses[response][1] += data[known_prompt][response][1]
                 
-    # Using Bayesian inference from _llaw, transform responses into a dict of 
+    # Using Bayesian inference from _lapl, transform responses into a dict of 
     # how successful each candidate response is expected to be as a reply to 
     # prompt, based on how successful they've been for each of its substrings.
 
